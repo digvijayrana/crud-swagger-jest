@@ -1,0 +1,19 @@
+{
+    "swaggerDefinition": {
+      "info": {
+        "title": "Items inventory API",
+        "version": "1.0.0",
+        "description": "Items API documentation",
+        "contact": {
+          "name": "Digvijay Gaur"
+        },
+        "servers": [
+          "http://localhost:3000"
+        ]
+      }
+    },
+    "apis": [
+      "index.js",
+      "./routes/*.js"
+    ]
+  }
